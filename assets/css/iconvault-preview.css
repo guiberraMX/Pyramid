@@ -4,14 +4,16 @@
 
 @font-face {
   font-family: "iconvault";
-  src: url("assets/fonts/iconvault_0ffb808a5f8017fb0d976afc80a16997.eot");
-  src: url("assets/fonts/iconvault_0ffb808a5f8017fb0d976afc80a16997.eot?#iefix") format("embedded-opentype"),
-       url("assets/fonts/iconvault_0ffb808a5f8017fb0d976afc80a16997.woff") format("woff"),
-       url("assets/fonts/iconvault_0ffb808a5f8017fb0d976afc80a16997.ttf") format("truetype"),
-       url("assets/fonts/iconvault_0ffb808a5f8017fb0d976afc80a16997.svg#iconvault") format("svg");
+  src: url("../fonts/iconvault_0ffb808a5f8017fb0d976afc80a16997.eot");
+  src: url("../fonts/iconvault_0ffb808a5f8017fb0d976afc80a16997.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/iconvault_0ffb808a5f8017fb0d976afc80a16997.woff") format("woff"),
+       url("../fonts/iconvault_0ffb808a5f8017fb0d976afc80a16997.ttf") format("truetype"),
+       url("../fonts/iconvault_0ffb808a5f8017fb0d976afc80a16997.svg#iconvault") format("svg");
   font-weight: normal;
   font-style: normal;
 }
+
+
 
 .icon-vine:before,
 .icon-instagram:before,
