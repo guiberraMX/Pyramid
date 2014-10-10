@@ -53,14 +53,14 @@ body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.4em;
     font-weight: 300;
-    background: #ccc;
+    background: #FCFCFC;
     color: #333;
     opacity: 0;
     transition: opacity 1s;
 }
 
 .night {
-    background: #333;
+    background: #22201D;
     color: #ccc;
 }
 
@@ -145,6 +145,11 @@ body a:hover {
 
 .night a:hover {
     color: #fff;
+}
+
+
+.manu{
+    color:#FFF3EA;
 }
 
 
@@ -579,11 +584,15 @@ margin on the iframe, cause it breaks stuff. */
     position: absolute;
     top: 10px;
     right: 10px; 
+    display: inline-block;
+    text-align: right;
+    width: 70%;
 }
 
 .dn-share a {
     text-decoration: none;
     font-size: 1.6rem;
+    display: inline-block;
 }
 
 .dn-load-img {
@@ -743,6 +752,7 @@ margin on the iframe, cause it breaks stuff. */
    ========================================================================== */
 
 .site-footer {
+
     position: relative;
     margin: 3rem 0 0 0;
     padding: 3rem 0;
@@ -798,7 +808,8 @@ a.subscribe {
 }
 
 .night .dn-side-bar {
-    border-right: 1px solid #ccc;
+    border-right: 1px solid black;
+    background-color: #151310;
 }
 
 .py2 img{
@@ -898,18 +909,22 @@ a.subscribe {
     margin: 0; 
     width: 80%;
     margin-left: 10%;
+    
+
 }
+
+
+
 
 .dn-menu-sep {
     float: left;
     width: 80%;
     height: 1px;
     max-height: 1px;
-    background-color: #333;
-}
+    }
 
 .night .dn-menu-sep {
-    background-color: #ccc;
+    background-color: black;
 }
 
 .dn-menu-sec {
@@ -996,7 +1011,7 @@ a.subscribe {
 /******** SMALL DEVICES ****/
 
 
-.dn-menu-small {
+.6-menu-small {
     background-color: #ccc;
     border-bottom: 1px solid #333;
     position: fixed;
@@ -1153,11 +1168,13 @@ a.subscribe {
         
     }
     
-    .post-footer .dn-share {
+    .post-footer .dn-share  {
         position: relative;
         display: inline-block;
         top: 0;
     }
+
+
     
     .dn-small-back {
         position: absolute;
