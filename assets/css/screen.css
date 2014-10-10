@@ -135,6 +135,10 @@ body a {
     transition: color ease 0.3s;
 }
 
+.fool{
+    color:#FCFCFC;
+}
+
 body a:hover {
     color: #666;
 }
@@ -1022,14 +1026,21 @@ a.subscribe {
     z-index: 99;
 }
 
+.dn-menu-small{
+     background-color: #151310;
+ }
+
+
+
 .night .dn-menu-small { 
-    background-color: #333;
-    border-bottom: 1px solid #ccc;
+    background-color: #151310;
+    border-bottom: 1px solid black;
 }
 
 .dn-small-pagination .pagination {
     text-align: right;
     padding-top: 8px;
+    color: #FCFCFC;
 }
 
 .dn-small-pagination .older-posts,
@@ -1051,6 +1062,7 @@ a.subscribe {
 .dn-small-clock .dn-time {
     display: inline-block;
     padding-left: 35px;
+    color: #FCFCFC;
 }
 
 .dn-small-clock .night-day-action {
@@ -1117,6 +1129,11 @@ a.subscribe {
 
 @media only screen and (max-width: 640px) {
     
+    .fool{
+    color:#FCFCFC;
+}
+
+
     .body-column {
         padding-left: 0.9375em !important;
     }
