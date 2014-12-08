@@ -17,28 +17,25 @@
                 <div class="dn-author">by {{author.name}}</div>
             </div>
             <div class="large-12 medium-12 small-12 columns no-sp dn-date">
-                <div class="dn-head-meta dn-date-share"><time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD / MMM / YYYY"}}</time></div>
-                <div class="dn-share">
+                <div class="dn-head-meta dn-date-share"><time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD / MMM / YYYY"}}</time>
+                </div>
+            
 
-                    <a class="preview-glyphs step icon-facebook size-12"  href="http://twitter.com/share?text={{encode title}}&url={{url absolute="true"}}"
+
+                 <div class="dn-share">
+
+                    <a class="preview-glyphs step icon-twitter size-12"  href="http://twitter.com/share?text={{encode title}}&url={{url absolute="true"}}"
                         onclick="window.open(this.href, 'twitter-share', );return false;"></a>
 
-
-                    <a class="preview-glyphs step icon-twitter size-12" href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}"
+                    <a class="preview-glyphs step icon-facebook size-12" href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}"
                         onclick="window.open(this.href, 'facebook-share',);return false;"></a>
-
-                    
-                    <a class="preview-glyphs step icon-instagram size-12" href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}"
-                        onclick="window.open(this.href, 'facebook-share',);return false;"></a>
+                                      
+                 </div>
 
 
-                    <a class="preview-glyphs step icon-twitter size-12" href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}"
-                        onclick="window.open(this.href, 'facebook-share',);return false;"></a>
 
-                   
 
-                </div>
-            </div>
+                        </div>
         </header>
         <section class="large-12 medium-12 small-12 columns no-sp dn-post-excerpt">
             <h2 class="post-title"><a href="{{url}}" class="dn-post-link">{{{title}}}</a></h2>
